@@ -150,8 +150,6 @@ p {
   display: flex;
   margin: 0;
   padding: 0;
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
 
 .offer-list .list {
@@ -183,7 +181,6 @@ p {
   display: flex;
   margin: 0;
   padding: 0;
-  /* padding-bottom: 94px; */
 }
 
 .suggest-list .list + .list {
@@ -195,7 +192,6 @@ p {
 }
 
 .main-comand-title {
-  /* padding-top: 94px; */
   margin-bottom: 50px;
 }
 
@@ -209,10 +205,6 @@ p {
 .comand-list .list + .list {
   margin-left: 30px;
 }
-
-/* .comand-list .list {
-  margin-bottom: 94px;
-} */
 
 .section-title {
   font-size: 36px;
@@ -278,6 +270,19 @@ address {
 
 /* PORTFOLIO CSS */
 
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.portfolio-list .list + .list {
+  margin-left: 8px;
+}
+
 .portfolio-btn {
   background-color: var(--secondary-bg-color);
   color: var(--main-color);
@@ -286,6 +291,11 @@ address {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+
+  height: 38px;
+  padding: 6px 22px;
+
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -298,6 +308,9 @@ address {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -305,4 +318,22 @@ address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+}
+
+.portfolio-type {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-type .list {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-type .list:nth-child(3n) {
+  margin-right: 0;
+  margin-bottom: 0;
 }
