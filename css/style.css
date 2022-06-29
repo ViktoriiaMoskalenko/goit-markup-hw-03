@@ -80,10 +80,12 @@ p {
 }
 
 .header-list {
+  margin: 0;
   margin-left: 93px;
 }
 
 .header-list-contact {
+  margin: 0;
   margin-left: auto;
 }
 
@@ -117,6 +119,9 @@ p {
 
 .hero {
   text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -215,17 +220,21 @@ p {
 .comand-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
 
-  margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.comand-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .comand-desc {
   color: var(--secondary-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9px;
+  line-height: 1.19;
 }
 
 .footer-content {
@@ -234,10 +243,6 @@ p {
 
 .logo-footer {
   color: var(--white-color);
-}
-
-.footer-section {
-  padding-top: 60px;
 }
 
 .maps-link {
@@ -252,6 +257,7 @@ p {
 
 address {
   margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-link {
@@ -264,8 +270,13 @@ address {
   padding: 0;
 }
 
-.footer-section .footer-link:last-child {
+.footer-content {
+  padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-link-padding {
+  margin-bottom: 9px;
 }
 
 /* PORTFOLIO CSS */
@@ -275,7 +286,6 @@ address {
   justify-content: center;
   margin: 0;
   padding: 0;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -292,7 +302,6 @@ address {
   line-height: 1.63;
   letter-spacing: 0.03em;
 
-  height: 38px;
   padding: 6px 22px;
 
   border-radius: 4px;
@@ -309,7 +318,6 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  padding-top: 20px;
   margin-bottom: 4px;
 }
 
@@ -344,4 +352,5 @@ address {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-top: 20px;
 }
