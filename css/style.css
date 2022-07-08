@@ -188,8 +188,12 @@ p {
   padding: 0;
 }
 
-.suggest-list .list + .list {
+/* .suggest-list .list + .list {
   margin-left: 30px;
+} */
+
+.suggest-list {
+  gap: 30px;
 }
 
 .comand-section {
@@ -207,8 +211,11 @@ p {
   text-align: center;
 }
 
-.comand-list .list + .list {
+/* .comand-list .list + .list {
   margin-left: 30px;
+} */
+.comand-list {
+  gap: 30px;
 }
 
 .section-title {
@@ -289,8 +296,12 @@ address {
   margin-bottom: 50px;
 }
 
-.portfolio-list .list + .list {
+/* .portfolio-list .list + .list {
   margin-left: 8px;
+} */
+
+.portfolio-list {
+  gap: 8px;
 }
 
 .portfolio-btn {
@@ -332,11 +343,13 @@ address {
   display: flex;
   flex-wrap: wrap;
 
+  gap: 30px;
+
   margin: 0;
   padding: 0;
 }
 
-.portfolio-type .list {
+/* .portfolio-type .list {
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -344,6 +357,10 @@ address {
 .portfolio-type .list:nth-child(3n) {
   margin-right: 0;
   margin-bottom: 0;
+} */
+
+.card-list {
+  flex-basis: calc((100% - 30px * 3) / 4);
 }
 
 .portfolio-border {
